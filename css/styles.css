@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap");
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Ubuntu+Condensed", sans-serif;
+  background: #e9f3e9;
+}
+.slider {
+  margin: 20px;
+  position: relative;
+}
+.slider .owl-item.active.center .slider-card {
+  transform: scale(1.15);
+  opacity: 1;
+  background-color: white;
+}
+.slider-card {
+  background-color: #fff;
+  margin: 0px 15px 70px 15px;
+  border-radius: 5px;
+  box-shadow: 0 15px 45px -20px rgba(206, 191, 191, 0.493);
+  transform: scale(0.9);
+  opacity: 0.5;
+  transition: all 0.3s;
+}
+.slider-card img{
+  border-radius: 5px 5px 0px 0px;
+}
+.owl-nav .owl-next{
+  position: absolute;
+  top: calc(50% - 25px);
+  right: 0;
+  opacity: 1;
+  font-size: 30px !important;
+  z-index: 1;
+}
+.owl-nav .owl-prev{
+  position: absolute;
+  top: calc(50% - 25px);
+  left: 0;
+  opacity: 1;
+  font-size: 30px !important;
+  z-index: 1;
+}
+.text-center{
+  padding-bottom: 10px;
+}
+.mb-4 {
+  margin-bottom: .5rem!important;
+}
